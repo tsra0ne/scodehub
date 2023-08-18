@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
+  name: Swift Code Hub
+  text: Learn SwiftUI and UIKit.
   tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
   actions:
     - theme: brand
