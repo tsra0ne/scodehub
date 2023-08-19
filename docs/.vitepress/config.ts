@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
-  base: '/scodehub/',
+  base: '/',
   lang: 'en-US',
   title: 'SwiftCodeHub',
   description: 'Learn SwiftUI and UIKit',
