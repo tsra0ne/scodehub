@@ -8,19 +8,11 @@ export default defineConfig({
   description: 'Learn SwiftUI and UIKit',
 
   themeConfig: {
+    logo: './schlogo.png',
     nav: [
-      { text: 'Example', link: '/example' },
-
-      // {
-      //   text: 'Dropdown Menu',
-      //   items: [
-      //     { text: 'Item A', link: '/item-1' },
-      //     { text: 'Item B', link: '/item-2' },
-      //     { text: 'Item C', link: '/item-3' },
-      //   ],
-      // },
-
-      // ...
+      { text: 'Swift', link: '/example' },
+      { text: 'UIKit', link: '/example'},
+      { text: 'SwiftUI', link: '/example'},
     ],
 
     sidebar: [
@@ -32,5 +24,10 @@ export default defineConfig({
         ],
       },
     ],
+
+    footer: {
+      message: 'Released under the <a href="https://github.com/tsra0ne/scodehub/blob/main/LICENSE">MIT License</a>.',
+      copyright: 'Copyright © 2023 <a href="https://github.com/tsra0ne/scodehub">Swift Code Hub</a>'
+    },
   },
 });
