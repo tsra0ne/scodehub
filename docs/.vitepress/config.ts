@@ -13,12 +13,29 @@ export default defineConfig({
 
   themeConfig: {
     logo: './schlogo.png',
+
+    // Navbar
     nav: [
       { text: 'Swift', link: '/example' },
-      { text: 'UIKit', link: '/example'},
-      { text: 'SwiftUI', link: '/example'},
+      { 
+        text: 'UIKit', 
+        items: [
+          { text: 'Item A', link: '/item-1' },
+          { text: 'Item B', link: '/item-2' },
+          { text: 'Item C', link: '/item-3' }
+        ]
+      },
+      { 
+        text: 'SwiftUI', 
+        items: [
+          { text: 'Item A', link: '/item-1' },
+          { text: 'Item B', link: '/item-2' },
+          { text: 'Item C', link: '/item-3' }
+        ]
+      },
     ],
 
+    // Sidebar
     sidebar: [
       {
         text: 'Guide',
