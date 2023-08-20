@@ -6,6 +6,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'SwiftCodeHub',
   description: 'Learn SwiftUI and UIKit',
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
 
   themeConfig: {
     logo: './schlogo.png',
