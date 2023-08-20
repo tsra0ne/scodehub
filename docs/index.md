@@ -10,10 +10,10 @@ hero:
     alt: SwiftCodeHub
   actions:
     - theme: brand
-      text: Get Started
+      text: Learn
       link: /example
     - theme: alt
-      text: View on GitHub
+      text: GitHub
       link: https://github.com/tsra0ne/scodehub
 
 features:
