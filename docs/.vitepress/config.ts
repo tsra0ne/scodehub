@@ -11,6 +11,11 @@ export default defineConfig({
   appearance: 'dark',
   lastUpdated: true,
 
+  sitemap: {
+    hostname: 'https://swiftcodehub.in',
+    lastmodDateOnly: false
+  },
+
   themeConfig: {
     logo: './schlogo.png',
 
