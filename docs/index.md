@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Learn
-      link: /example
+      link: /uikit/integrating-swiftui-into-uikit
     - theme: alt
       text: GitHub
       link: https://github.com/tsra0ne/scodehub
