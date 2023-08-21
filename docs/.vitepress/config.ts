@@ -5,7 +5,6 @@ export default defineConfig({
   base: '/',
   lang: 'en-US',
   title: 'SwiftCodeHub',
-  titleTemplate: ':title - SwiftCodeHub',
   description: 'Learn SwiftUI and UIKit',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   cleanUrls: true,
@@ -14,15 +13,7 @@ export default defineConfig({
 
   sitemap: {
     hostname: 'https://swiftcodehub.in',
-    lastmodDateOnly: false,
-    transformItems: (items) => {
-      items.push({
-        url: '/uikit/integrating-swiftui-into-uikit',
-        changefreq: 'daily',
-        priority: 0.8
-      })
-      return items
-    }
+    lastmodDateOnly: false
   },
 
   themeConfig: {

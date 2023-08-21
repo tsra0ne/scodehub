@@ -1,5 +1,6 @@
 ---
-title: Home
+title: SwiftCodeHub
+titleTemplate: Learn SwiftUI and UIKit
 layout: home
 
 hero:
