@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+
 <script setup>
 import {
   VPTeamPage,
@@ -15,7 +16,7 @@ const members = [
     title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/tsra0ne' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+      { icon: 'twitter', link: 'https://twitter.com/tsra0ne' }
     ]
   },
 ]
