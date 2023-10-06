@@ -22,10 +22,10 @@ features:
   - icon: 🔍
     title: Swift
     details: Swift is a powerful and intuitive programming language developed by Apple, designed for building apps on iOS, macOS, watchOS, and tvOS platforms.
-  - icon: 📱
-    title: UIKit
-    details: UIKit is a framework by Apple for building user interfaces in iOS applications using a set of components and APIs, traditionally used before the introduction of SwiftUI.
   - icon: 🧑‍💻
     title: SwiftUI
     details: SwiftUI is a declarative UI framework also developed by Apple, allowing developers to create user interfaces for their apps using a simple and efficient syntax.
+  - icon: 📱
+    title: UIKit
+    details: UIKit is a framework by Apple for building user interfaces in iOS applications using a set of components and APIs, traditionally used before the introduction of SwiftUI.
 ---
