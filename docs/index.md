@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: Learn
-      link: /swiftui/introduction
+      link: /swift/basics
     - theme: alt
       text: GitHub
       link: https://github.com/tsra0ne/scodehub
