@@ -11,6 +11,12 @@ export default defineConfig({
   appearance: "dark",
   lastUpdated: true,
 
+  markdown: {
+    image: {
+      lazyLoading: true
+    }
+  },
+
   sitemap: {
     hostname: "https://swiftcodehub.in",
     lastmodDateOnly: false,
@@ -21,7 +27,15 @@ export default defineConfig({
 
     // Navbar
     nav: [
-      { text: "Swift", link: "/" },
+      {
+        text: "Swift",
+        items: [
+          {
+            text: "Swift Basics",
+            link: "/swift/basics",
+          },
+        ],
+      },
       {
         text: "SwiftUI",
         items: [
@@ -46,6 +60,18 @@ export default defineConfig({
     sidebar: {
       // This sidebar gets displayed when a user
       // is on `guide` directory.
+      "/swift/": [
+        {
+          text: "Swift",
+          items: [
+            {
+              text: "Swift Basics",
+              link: "/swift/basics",
+            },
+          ],
+        },
+      ],
+
       "/swiftui/": [
         {
           text: "SwiftUI",
