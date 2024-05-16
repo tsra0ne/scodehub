@@ -67,3 +67,40 @@ var apples, bananas, carrots: String
 
 > [!NOTE]
 > Swift compiler can infer the variable and constant types if we provide a initial value when creating them.
+
+## Printing Constants and Variables
+
+```swift
+var deviceName = "Apple"
+print(deviceName)
+```
+
+You can also use string interpolation to add the variable to the sentence directly, as shown in below code.
+
+```swift
+print("Raju uses a \(deviceName) device")
+// Prints "Raju uses a Apple device"
+```
+
+## Comments
+
+Comments are ignored by swift compiler when the code is compiled.
+
+```swift
+// This is a comment.
+```
+
+Multiline comments starts with `/*` and ends with `*/`.
+
+```swift
+/* This is also a
+ multiline comment. */
+```
+
+You can write two multiple statements on one line using a semicolon(`;`).
+
+```swift
+let cat = "cat"; print(cat)
+// Prints "cat"
+```
+
